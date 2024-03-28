@@ -1,0 +1,188 @@
+$bigFont: 5rem;
+$secondFont: 4rem;
+$thirdFont: 3rem;
+$fourthFont: 2rem;
+
+//#336666
+body{
+    background-color: #336666; color: #000000;
+    position: relative;
+}	
+
+header, footer {
+    background-color: #0a1f0f;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 8%;
+    opacity: 0.9;
+}
+
+footer {
+    height: 35px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    a {
+        color: #5dc4c4;
+        
+    }
+    a:hover {
+        text-decoration: none;
+    }
+
+}
+
+a {
+    color: #5dc4c4;
+
+    &:hover {
+        text-decoration: none;
+        color: #0f1d1d;
+    }
+}
+
+
+
+.hl01  { font-size:$bigFont; font-family:Century Schoolbook L; text-align:center; }
+.hl02  { font-size:$secondFont; font-family:Century Schoolbook L; text-align:center; }
+.hl03  { font-size:$thirdFont; font-family:Century Schoolbook L; text-align:center; }
+.hl04  { font-size:$fourthFont; font-family:Century Schoolbook L; text-align:center; }
+.txt01 { font-size:$bigFont; font-family:Century Schoolbook L; text-align:left; }
+.txt02 { font-size:$secondFont; font-family:Century Schoolbook L; text-align:left; }
+.txt03 { font-size:$thirdFont; font-family:Century Schoolbook L; text-align:left; }
+.txt04 { font-size:$fourthFont; font-family:Century Schoolbook L; text-align:left; }
+.txtR01 { font-size:$bigFont; font-family:Century Schoolbook L; text-align:right; }
+.txtR02 { font-size:$secondFont; font-family:Century Schoolbook L; text-align:right; }
+.txtR03 { font-size:$thirdFont; font-family:Century Schoolbook L; text-align:right; }
+.txtR04 { font-size:$fourthFont; font-family:Century Schoolbook L; text-align:right; }
+.txtft { font-size:$thirdFont; font-family:Century Schoolbook L; text-align:right; background-color:Transparent;}
+/*
+@media screen and (max-width: 425px) {
+    .hl01  { font-size:32pt; font-family:Century Schoolbook L; text-align:center; }
+    .hl02  { font-size:24pt; font-family:Century Schoolbook L; text-align:center; }
+    .hl03  { font-size:16pt; font-family:Century Schoolbook L; text-align:center; }
+    .hl04  { font-size:12pt; font-family:Century Schoolbook L; text-align:center; }
+    .txt01 { font-size:32pt; font-family:Century Schoolbook L; text-align:left; }
+    .txt02 { font-size:24pt; font-family:Century Schoolbook L; text-align:left; }
+    .txt03 { font-size:16pt; font-family:Century Schoolbook L; text-align:left; }
+    .txt04 { font-size:12pt; font-family:Century Schoolbook L; text-align:left; }
+    .txtR01 { font-size:32pt; font-family:Century Schoolbook L; text-align:right; }
+    .txtR02 { font-size:24pt; font-family:Century Schoolbook L; text-align:right; }
+    .txtR03 { font-size:16pt; font-family:Century Schoolbook L; text-align:right; }
+    .txtR04 { font-size:12pt; font-family:Century Schoolbook L; text-align:right; }
+}
+*/
+
+.mainHeader {
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.welcomeHeader {
+    padding-bottom: 6%;
+}
+
+.box { 
+	border: 1px solid #5dc4c4; 
+    border-radius: 25px;
+	padding: 40px 20px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    background-color: #13441f;
+}
+
+.footerContent, .headerContent{
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footerContent {
+    height: 100%;
+}
+
+.headerContent {
+    padding: 10px 0;
+    height: 100%;
+    overflow: hidden;
+}
+    
+.footerItem {
+    color: #5dc4c4;
+    padding: 0 40px;
+    margin: auto;
+    display: inline-block;
+}
+
+.headerItem {
+    width: 120px;
+    margin: auto;
+    display: inline-block;
+}
+
+
+.imgRobo{
+    position: absolute;
+    bottom: 0px;
+    right: -25%;
+}
+
+.kirembelImg {
+    height: auto;
+    max-width: 100%;
+}
+
+.linkbutton { 
+	margin: 7px 7px 7px 7px;
+	background-color: 357070; 
+    color: #5dc4c4;
+    font-size:16pt; 
+    font-family:Bitstream Charter; 
+    border-radius: 5px;
+    
+    &:hover {
+        color: #0f1d1d;
+    }
+}
+
+.curentPage {
+    text-decoration: underline;
+}
+
+.navbar-nav .navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}		
+.spaceBottom {
+    margin-bottom: 10%;
+}
+.littleSpaceBottom {
+    margin-bottom: 5%;
+}
+
+.border {
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.line {
+    height: 2px;
+    background: black;
+    margin-bottom: 10%;
+}
+
+.littleSpaceTop {
+    margin-top: 5%;
+}
+.spaceTop {
+    margin-top: 10%;
+}
