@@ -85,6 +85,10 @@
   color: #838383;
 }
 
+footer {
+  bottom: -50px;
+}
+
 .defaultImg {
   width: 100%;
   height: 100%;
@@ -94,8 +98,9 @@
 }
 
 .biggerImg {
-  width: 100%;
-  height: 100%;
+  width: 40%;
+  height: auto;
+  float: left;
 }
 
 .frame {
@@ -106,7 +111,7 @@
 }
 
 .bigFrame {
-  position: sticky;
+  position: fixed;
   width: 80%;
   height: 700px;
   z-index: 999;
@@ -114,6 +119,15 @@
   top: 100px;
   background-color: black;
   display: none;
+  border: 5px solid black;
+  border-radius: 5px;
+}
+
+.descriptionText {
+  width: 60%;
+  height: 100%;
+  background-color: blue;
+  float: left;
 }
 
 .column {
@@ -126,4 +140,30 @@
   content: "";
   clear: both;
   display: table;
+}
+
+.imageText {
+  margin: 0 5%;
+}
+
+@media screen and (max-width: 550px) {
+  .column {
+    float: left;
+    width: 90%;
+    margin: 5%;
+  }
+  footer {
+    position: absolute;
+    bottom: -120px;
+  }
+}
+@media screen and (max-width: 900px) and (min-width: 551px) {
+  .column {
+    float: left;
+    width: 40%;
+    margin: 5%;
+  }
+  footer {
+    bottom: -120px;
+  }
 }/*# sourceMappingURL=galerie.css.map */

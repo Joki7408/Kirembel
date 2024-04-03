@@ -1,12 +1,13 @@
-$bigFont: 5rem;
-$secondFont: 4rem;
-$thirdFont: 3rem;
+$bigFont: 4rem;
+$secondFont: 3rem;
+$thirdFont: 2.5rem;
 $fourthFont: 2rem;
 
 //#336666
 body{
     background-color: #336666; color: #000000;
     position: relative;
+    
 }	
 
 header, footer {
@@ -19,13 +20,15 @@ header {
     z-index: 1;
     height: 8%;
     opacity: 0.9;
+    width: 100%;
 }
 
 footer {
-    height: 35px;
+    height: 50px;
     position: absolute;
     bottom: 0;
     width: 100%;
+    margin-top: 2.5%;
     a {
         color: #5dc4c4;
         
@@ -131,8 +134,8 @@ a {
 
 .imgRobo{
     position: absolute;
-    bottom: 0px;
-    right: -25%;
+    bottom: 100;
+
 }
 
 .kirembelImg {
@@ -169,8 +172,8 @@ a {
     margin-bottom: 5%;
 }
 
-.border {
-    border: 5px solid black;
+.custom-border {
+    border: 2px solid black;
     border-radius: 5px;
 }
 
@@ -185,4 +188,12 @@ a {
 }
 .spaceTop {
     margin-top: 10%;
+}
+
+.defaultImg {
+    width: 100%;
+}
+
+.galerieRow {
+    --bs-gutter-x: 0;
 }

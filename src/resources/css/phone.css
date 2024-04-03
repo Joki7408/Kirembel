@@ -1,4 +1,70 @@
 @media screen and (max-width: 550px) {
+  .hl01 {
+    font-size: 3rem;
+    font-family: Century Schoolbook L;
+    text-align: center;
+  }
+  .hl02 {
+    font-size: 2.5rem;
+    font-family: Century Schoolbook L;
+    text-align: center;
+  }
+  .hl03 {
+    font-size: 2rem;
+    font-family: Century Schoolbook L;
+    text-align: center;
+  }
+  .hl04 {
+    font-size: 1.5rem;
+    font-family: Century Schoolbook L;
+    text-align: center;
+  }
+  .txt01 {
+    font-size: 3rem;
+    font-family: Century Schoolbook L;
+    text-align: left;
+  }
+  .txt02 {
+    font-size: 2.5rem;
+    font-family: Century Schoolbook L;
+    text-align: left;
+  }
+  .txt03 {
+    font-size: 2rem;
+    font-family: Century Schoolbook L;
+    text-align: left;
+  }
+  .txt04 {
+    font-size: 1.5rem;
+    font-family: Century Schoolbook L;
+    text-align: left;
+  }
+  .txtR01 {
+    font-size: 3rem;
+    font-family: Century Schoolbook L;
+    text-align: right;
+  }
+  .txtR02 {
+    font-size: 2.5rem;
+    font-family: Century Schoolbook L;
+    text-align: right;
+  }
+  .txtR03 {
+    font-size: 2rem;
+    font-family: Century Schoolbook L;
+    text-align: right;
+  }
+  .txtR04 {
+    font-size: 1.5rem;
+    font-family: Century Schoolbook L;
+    text-align: right;
+  }
+  .txtft {
+    font-size: 2rem;
+    font-family: Century Schoolbook L;
+    text-align: right;
+    background-color: Transparent;
+  }
   header {
     width: 100%;
     position: static;
@@ -7,13 +73,16 @@
   }
   footer {
     width: 100%;
-    height: 100px;
+    height: 120px;
     position: relative;
   }
   body {
     width: 100%;
   }
   img {
+    max-width: 100%;
+  }
+  p {
     max-width: 100%;
   }
   .headerContent {

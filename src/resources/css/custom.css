@@ -14,13 +14,15 @@ header {
   z-index: 1;
   height: 8%;
   opacity: 0.9;
+  width: 100%;
 }
 
 footer {
-  height: 35px;
+  height: 50px;
   position: absolute;
   bottom: 0;
   width: 100%;
+  margin-top: 2.5%;
 }
 footer a {
   color: #5dc4c4;
@@ -38,19 +40,19 @@ a:hover {
 }
 
 .hl01 {
-  font-size: 5rem;
-  font-family: Century Schoolbook L;
-  text-align: center;
-}
-
-.hl02 {
   font-size: 4rem;
   font-family: Century Schoolbook L;
   text-align: center;
 }
 
-.hl03 {
+.hl02 {
   font-size: 3rem;
+  font-family: Century Schoolbook L;
+  text-align: center;
+}
+
+.hl03 {
+  font-size: 2.5rem;
   font-family: Century Schoolbook L;
   text-align: center;
 }
@@ -62,19 +64,19 @@ a:hover {
 }
 
 .txt01 {
-  font-size: 5rem;
-  font-family: Century Schoolbook L;
-  text-align: left;
-}
-
-.txt02 {
   font-size: 4rem;
   font-family: Century Schoolbook L;
   text-align: left;
 }
 
-.txt03 {
+.txt02 {
   font-size: 3rem;
+  font-family: Century Schoolbook L;
+  text-align: left;
+}
+
+.txt03 {
+  font-size: 2.5rem;
   font-family: Century Schoolbook L;
   text-align: left;
 }
@@ -86,19 +88,19 @@ a:hover {
 }
 
 .txtR01 {
-  font-size: 5rem;
-  font-family: Century Schoolbook L;
-  text-align: right;
-}
-
-.txtR02 {
   font-size: 4rem;
   font-family: Century Schoolbook L;
   text-align: right;
 }
 
-.txtR03 {
+.txtR02 {
   font-size: 3rem;
+  font-family: Century Schoolbook L;
+  text-align: right;
+}
+
+.txtR03 {
+  font-size: 2.5rem;
   font-family: Century Schoolbook L;
   text-align: right;
 }
@@ -110,7 +112,7 @@ a:hover {
 }
 
 .txtft {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: Century Schoolbook L;
   text-align: right;
   background-color: Transparent;
@@ -184,8 +186,7 @@ a:hover {
 
 .imgRobo {
   position: absolute;
-  bottom: 0px;
-  right: -25%;
+  bottom: 100;
 }
 
 .kirembelImg {
@@ -223,8 +224,8 @@ a:hover {
   margin-bottom: 5%;
 }
 
-.border {
-  border: 5px solid black;
+.custom-border {
+  border: 2px solid black;
   border-radius: 5px;
 }
 
@@ -240,4 +241,12 @@ a:hover {
 
 .spaceTop {
   margin-top: 10%;
+}
+
+.defaultImg {
+  width: 100%;
+}
+
+.galerieRow {
+  --bs-gutter-x: 0;
 }/*# sourceMappingURL=custom.css.map */
