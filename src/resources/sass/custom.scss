@@ -3,15 +3,21 @@ $secondFont: 3rem;
 $thirdFont: 2.5rem;
 $fourthFont: 2rem;
 
+$mainColor: #496989;
+$secondColor: #58A399;
+$thirdColor: #A8CD9F;
+$fourthColor: #E2F4C5;
+$fontColor: black;
+
 //#336666
 body{
-    background-color: #336666; color: #000000;
+    background-color: $secondColor; color: $fontColor;
     position: relative;
     
 }	
 
 header, footer {
-    background-color: #0a1f0f;
+    background-color: $mainColor;
 }
 
 header {
@@ -30,7 +36,7 @@ footer {
     width: 100%;
     margin-top: 2.5%;
     a {
-        color: #5dc4c4;
+        color: $thirdColor;
         
     }
     a:hover {
@@ -40,11 +46,11 @@ footer {
 }
 
 a {
-    color: #5dc4c4;
+    color: $thirdColor;
 
     &:hover {
         text-decoration: none;
-        color: #0f1d1d;
+        color: $fourthColor;
     }
 }
 
@@ -90,12 +96,12 @@ a {
 }
 
 .box { 
-	border: 1px solid #5dc4c4; 
+	border: 1px solid $mainColor; 
     border-radius: 25px;
 	padding: 40px 20px;
     margin-top: 5%;
     margin-bottom: 15%;
-    background-color: #13441f;
+    background-color: $thirdColor;
 }
 
 .footerContent, .headerContent{
@@ -119,7 +125,7 @@ a {
 }
     
 .footerItem {
-    color: #5dc4c4;
+    color: $secondColor;
     padding: 0 40px;
     margin: auto;
     display: inline-block;
@@ -146,13 +152,13 @@ a {
 .linkbutton { 
 	margin: 7px 7px 7px 7px;
 	background-color: 357070; 
-    color: #5dc4c4;
+    color: $thirdColor;
     font-size:16pt; 
     font-family:Bitstream Charter; 
     border-radius: 5px;
     
     &:hover {
-        color: #0f1d1d;
+        color: $fourthColor;
     }
 }
 
@@ -173,13 +179,13 @@ a {
 }
 
 .custom-border {
-    border: 2px solid black;
+    border: 4px solid $mainColor;
     border-radius: 5px;
 }
 
 .line {
     height: 2px;
-    background: black;
+    background: $fontColor;
     margin-bottom: 10%;
 }
 

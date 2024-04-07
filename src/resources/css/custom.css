@@ -1,11 +1,11 @@
 body {
-  background-color: #336666;
-  color: #000000;
+  background-color: #58A399;
+  color: black;
   position: relative;
 }
 
 header, footer {
-  background-color: #0a1f0f;
+  background-color: #496989;
 }
 
 header {
@@ -25,18 +25,18 @@ footer {
   margin-top: 2.5%;
 }
 footer a {
-  color: #5dc4c4;
+  color: #A8CD9F;
 }
 footer a:hover {
   text-decoration: none;
 }
 
 a {
-  color: #5dc4c4;
+  color: #A8CD9F;
 }
 a:hover {
   text-decoration: none;
-  color: #0f1d1d;
+  color: #E2F4C5;
 }
 
 .hl01 {
@@ -144,12 +144,12 @@ a:hover {
 }
 
 .box {
-  border: 1px solid #5dc4c4;
+  border: 1px solid #496989;
   border-radius: 25px;
   padding: 40px 20px;
   margin-top: 5%;
   margin-bottom: 15%;
-  background-color: #13441f;
+  background-color: #A8CD9F;
 }
 
 .footerContent, .headerContent {
@@ -172,7 +172,7 @@ a:hover {
 }
 
 .footerItem {
-  color: #5dc4c4;
+  color: #58A399;
   padding: 0 40px;
   margin: auto;
   display: inline-block;
@@ -197,13 +197,13 @@ a:hover {
 .linkbutton {
   margin: 7px 7px 7px 7px;
   background-color: 357070;
-  color: #5dc4c4;
+  color: #A8CD9F;
   font-size: 16pt;
   font-family: Bitstream Charter;
   border-radius: 5px;
 }
 .linkbutton:hover {
-  color: #0f1d1d;
+  color: #E2F4C5;
 }
 
 .curentPage {
@@ -225,7 +225,7 @@ a:hover {
 }
 
 .custom-border {
-  border: 2px solid black;
+  border: 4px solid #496989;
   border-radius: 5px;
 }
 
