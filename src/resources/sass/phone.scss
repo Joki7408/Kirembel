@@ -1,4 +1,4 @@
-@media screen and (max-width: 550px) {
+@media only screen and (max-width: 550px) {
 
     $bigFont: 3rem;
     $secondFont: 2.5rem;
@@ -22,7 +22,7 @@
     header {
         width: 100%;
         position: static;
-        height: 248px;
+        height: 310px;
         opacity: 1;
     }
 
@@ -52,6 +52,13 @@
         padding: 0;
     }
 
+    .nav-item {
+        width: 100%;
+    }
+    .navbar-nav-custom {
+        padding: 0;
+    }
+
     .footerItem {
         display: block;
     }
@@ -60,7 +67,6 @@
         display: block;
         width: 100%;
         margin: 1px 0;
-        border: 1px solid black;
         height: 16%;
 
     }

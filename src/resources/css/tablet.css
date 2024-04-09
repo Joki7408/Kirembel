@@ -89,7 +89,6 @@
   .headerContent {
     overflow: visible;
     height: 100%;
-    border: 1px solid black;
     padding: 0;
   }
   .footerItem {
@@ -100,7 +99,6 @@
     max-width: 100%;
     min-width: 49%;
     margin: 1px 0;
-    border: 1px solid black;
     height: 32%;
   }
   .txt01, .txt02, .txt03, .txt04 {
@@ -109,5 +107,12 @@
   }
   [class*=col-] {
     width: 100%;
+  }
+  .navbar-nav-custom {
+    width: 100%;
+    padding: 0 5%;
+  }
+  .nav-item {
+    width: 20%;
   }
 }/*# sourceMappingURL=tablet.css.map */

@@ -13,7 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "bundler": "^0.8.0",
     "commonjs": "^0.0.1",
+    "ruby": "^0.6.1",
     "systemjs": "^6.14.3",
     "typescript": "^5.4.3"
   },

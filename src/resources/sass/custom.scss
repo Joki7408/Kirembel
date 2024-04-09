@@ -3,13 +3,13 @@ $secondFont: 3rem;
 $thirdFont: 2.5rem;
 $fourthFont: 2rem;
 
-$mainColor: #496989;
-$secondColor: #58A399;
-$thirdColor: #A8CD9F;
-$fourthColor: #E2F4C5;
-$fontColor: black;
+$mainColor: rgba(var(--bs-dark-rgb));
+$secondColor: #0f0f0f;
+$thirdColor: #9B3922;
+$fourthColor: #F2613F;
+$fontColor: white;
+$buttonColor: #373737;
 
-//#336666
 body{
     background-color: $secondColor; color: $fontColor;
     position: relative;
@@ -39,9 +39,6 @@ footer {
         color: $thirdColor;
         
     }
-    a:hover {
-        text-decoration: none;
-    }
 
 }
 
@@ -69,22 +66,6 @@ a {
 .txtR03 { font-size:$thirdFont; font-family:Century Schoolbook L; text-align:right; }
 .txtR04 { font-size:$fourthFont; font-family:Century Schoolbook L; text-align:right; }
 .txtft { font-size:$thirdFont; font-family:Century Schoolbook L; text-align:right; background-color:Transparent;}
-/*
-@media screen and (max-width: 425px) {
-    .hl01  { font-size:32pt; font-family:Century Schoolbook L; text-align:center; }
-    .hl02  { font-size:24pt; font-family:Century Schoolbook L; text-align:center; }
-    .hl03  { font-size:16pt; font-family:Century Schoolbook L; text-align:center; }
-    .hl04  { font-size:12pt; font-family:Century Schoolbook L; text-align:center; }
-    .txt01 { font-size:32pt; font-family:Century Schoolbook L; text-align:left; }
-    .txt02 { font-size:24pt; font-family:Century Schoolbook L; text-align:left; }
-    .txt03 { font-size:16pt; font-family:Century Schoolbook L; text-align:left; }
-    .txt04 { font-size:12pt; font-family:Century Schoolbook L; text-align:left; }
-    .txtR01 { font-size:32pt; font-family:Century Schoolbook L; text-align:right; }
-    .txtR02 { font-size:24pt; font-family:Century Schoolbook L; text-align:right; }
-    .txtR03 { font-size:16pt; font-family:Century Schoolbook L; text-align:right; }
-    .txtR04 { font-size:12pt; font-family:Century Schoolbook L; text-align:right; }
-}
-*/
 
 .mainHeader {
     padding-top: 6%;
@@ -96,7 +77,7 @@ a {
 }
 
 .box { 
-	border: 1px solid $mainColor; 
+	border: 5px solid $mainColor; 
     border-radius: 25px;
 	padding: 40px 20px;
     margin-top: 5%;
@@ -119,7 +100,7 @@ a {
 }
 
 .headerContent {
-    padding: 10px 0;
+    padding: 0;
     height: 100%;
     overflow: hidden;
 }
@@ -129,12 +110,34 @@ a {
     padding: 0 40px;
     margin: auto;
     display: inline-block;
+    a {
+        text-decoration: none;
+    }
+    
+}
+
+.navbar-nav-custom {
+    width: 100%;
+    padding: 0 20%;
+}
+.nav-item {
+    width: 20%;
+}
+.navbar {
+    height: 100%;
 }
 
 .headerItem {
-    width: 120px;
-    margin: auto;
-    display: inline-block;
+
+    height: 100%;
+    align-self: center;
+    color: $thirdColor;
+    font-size:16pt; 
+    font-family:Bitstream Charter; 
+    
+    &:hover {
+        color: $fourthColor;
+    }
 }
 
 
@@ -150,16 +153,6 @@ a {
 }
 
 .linkbutton { 
-	margin: 7px 7px 7px 7px;
-	background-color: 357070; 
-    color: $thirdColor;
-    font-size:16pt; 
-    font-family:Bitstream Charter; 
-    border-radius: 5px;
-    
-    &:hover {
-        color: $fourthColor;
-    }
 }
 
 .curentPage {

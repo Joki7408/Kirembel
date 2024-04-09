@@ -49,7 +49,7 @@
         overflow: visible;
         height: 100%;
 
-        border: 1px solid black;
+
         padding: 0;
     }
 
@@ -62,7 +62,7 @@
         max-width: 100%;
         min-width: 49%;
         margin: 1px 0;
-        border: 1px solid black;
+
         height: 32%;
     }
 
@@ -73,5 +73,13 @@
 
     [class*="col-"] {
         width: 100%;
+    }
+
+    .navbar-nav-custom {
+        width: 100%;
+        padding: 0 5%;
+    }
+    .nav-item {
+        width: 20%;
     }
 }

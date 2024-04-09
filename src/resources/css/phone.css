@@ -1,4 +1,4 @@
-@media screen and (max-width: 550px) {
+@media only screen and (max-width: 550px) {
   .hl01 {
     font-size: 3rem;
     font-family: Century Schoolbook L;
@@ -68,7 +68,7 @@
   header {
     width: 100%;
     position: static;
-    height: 248px;
+    height: 310px;
     opacity: 1;
   }
   footer {
@@ -92,6 +92,12 @@
     border: 1px solid black;
     padding: 0;
   }
+  .nav-item {
+    width: 100%;
+  }
+  .navbar-nav-custom {
+    padding: 0;
+  }
   .footerItem {
     display: block;
   }
@@ -99,7 +105,6 @@
     display: block;
     width: 100%;
     margin: 1px 0;
-    border: 1px solid black;
     height: 16%;
   }
   .txt01, .txt02, .txt03, .txt04 {
