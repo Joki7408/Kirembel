@@ -85,7 +85,7 @@ footer {
   overflow: auto;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
   .column {
     float: left;
     width: 90%;
@@ -108,7 +108,7 @@ footer {
     top: 5%;
   }
 }
-@media screen and (max-width: 900px) and (min-width: 551px) {
+@media screen and (max-width: 992px) and (min-width: 600px) {
   .column {
     float: left;
     width: 40%;

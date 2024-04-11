@@ -56,7 +56,6 @@ function createImage(source, counter) {
  * @returns
  */
 function clickImg(source, text) {
-    //const bigFrame = document.createElement("div");
     const docFrame = document.getElementById("bigFrame");
     if (docFrame === null) {
         return;
